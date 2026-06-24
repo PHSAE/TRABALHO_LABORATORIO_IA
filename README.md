@@ -27,9 +27,9 @@ As bases foram integradas por meio do código da escola (`CO_ENTIDADE`), permiti
 ```text
 .
 ├── codigo/
-│   ├── 01_preparacao_base.py
-│   ├── 02_enriquecimento_dados.py
-│   └── 03_modelagem_resultados.py
+│   ├── etapa1_preparar_dados.py
+│   ├── etapa2_enriquecer.py
+│   └── etapa3_modelagem.py
 │
 ├── dados/
 │   └── README_DADOS.md
@@ -85,9 +85,9 @@ pip install -r requirements.txt
 Execute os scripts na seguinte ordem:
 
 ```bash
-python codigo/01_preparacao_base.py
-python codigo/02_enriquecimento_dados.py
-python codigo/03_modelagem_resultados.py
+python etapa1_preparar_dados.py
+python etapa2_enriquecer.py
+python etapa3_modelagem.py
 ```
 
 ## Observações éticas
